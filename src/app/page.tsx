@@ -90,8 +90,8 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <div className="mt-16 text-center">
-        <p className="text-slate-400 text-sm">
+      <div className="mt-8 sm:mt-12 md:mt-16 text-center px-4">
+        <p className="text-slate-400 text-xs sm:text-sm">
           Click on a game to start playing!
         </p>
       </div>
