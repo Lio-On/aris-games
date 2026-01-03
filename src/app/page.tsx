@@ -20,7 +20,7 @@ export default function Home() {
       id: 3,
       name: "Monster Rocks",
       url: "https://lio-on.github.io/Monster_rocks/",
-      emoji: "🦖",
+      emoji: "💣",
       gradient: "from-emerald-700 via-teal-600 to-green-700",
       description: "Face the ancient beasts!",
     },
