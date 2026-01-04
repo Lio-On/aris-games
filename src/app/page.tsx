@@ -24,6 +24,14 @@ export default function Home() {
       gradient: "from-emerald-700 via-teal-600 to-green-700",
       description: "Face the ancient beasts!",
     },
+    {
+      id: 4,
+      name: "+ Math Ocean Challenge",
+      url: "https://lio-on.github.io/math-ocean-challenge/",
+      emoji: "🐟",
+      gradient: "from-cyan-500 via-blue-500 to-sky-700",
+      description: "Practice math with sea creatures",
+    },
   ];
 
   return (
