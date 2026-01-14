@@ -32,6 +32,14 @@ export default function Home() {
       gradient: "from-cyan-500 via-blue-500 to-sky-700",
       description: "Practice math with sea creatures",
     },
+    {
+      id: 5,
+      name: "Air Clash",
+      url: "https://air-clash-client.vercel.app/",
+      emoji: "🛩️",
+      gradient: "from-sky-400 via-cyan-500 to-indigo-700",
+      description: "Air battle with planes",
+    },
   ];
 
   return (
@@ -87,7 +95,7 @@ export default function Home() {
                 </div>
 
                 {/* Game Name - Hidden by default, shown on hover/tap */}
-                <div className="absolute inset-0 bg-black/70 opacity-0 hover:opacity-100 active:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-4 sm:p-6 backdrop-blur-sm">
+                <div className="absolute inset-0 bg-black/70 opacity-0 hover:opacity-100 active:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-4 sm:p-6">
                   <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-1 sm:mb-2 drop-shadow-lg">
                     {game.name}
                   </h2>
